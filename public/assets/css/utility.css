@@ -1,0 +1,138 @@
+.mainLoginPage{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://businessfinancing.co.uk/wp-content/uploads/marvin-meyer-SYTO3xs06fU-unsplash.jpg");
+}
+.mainLoginPage::after {
+    position: absolute;
+    background-color: #ffffff75;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    content: '';
+}
+.login-container{
+    z-index: +999;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: none !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.homeMain{
+    height: 500px;
+    border-radius: 25px;
+}
+/* .homeMain{
+    border: 1px solid rgb(211, 211, 211);
+} */
+
+.ttu{
+    text-transform: uppercase;
+}
+.f-20{
+    font-size: 20px;
+}
+.f-50{
+    font-size: 50px;
+}
+
+.op-5{
+    opacity: .7 !important;
+}
+
+
+.bg-imgMain{
+    /* background-image: linear-gradient(to bottom, rgb(92 103 106 / 52%), rgb(0 103 255 / 73%)), url(https://images.unsplash.com/photo-1614632537197-38a17061c2bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80); */
+    background-image: linear-gradient(to bottom, rgb(92 103 106 / 52%), rgb(0 103 255 / 73%)), url('../img/bg.jpg');
+    background-size: cover;
+}
+
+.homeMain.shadow{
+    background-color: #19191ab8;
+}
+
+.row{
+    margin: 0px !important;
+}
+
+input[type="search"],select[name="DataTables_Table_0_length"]{
+    border: 1px solid #e3dfdf !important;
+    height: 32px !important;
+    min-height: 32px !important;
+}
+
+input[data-common="common"],
+input[onkeypress="date_reformat_dd(this);"]
+
+{
+    padding: 3px !important;
+    -moz-appearance: textfield;
+}
+input.form-control:focus{
+    border: 1px solid rgb(34, 33, 33) !important;
+}
+
+.select2-container--focus .selection .select2-selection--single {
+    border: 1px solid rgb(34, 33, 33) !important;
+}
+
+
+
+
+.select2-container {
+    display: block !important;
+    width: 100% !important
+}
+
+.checkVariationDisplay {
+    display: inline;
+}
+
+.variation_style {
+    border: none;
+    width: 55% !important;
+}
+
+.variation_style_only_img {
+    border: none;
+    width: 120% !important;
+}
+.form-control{
+    height: 38px;
+    min-height: 38px !important;
+}
+.scrollModal{
+    max-height: 80vh !important;
+    overflow-y: auto;
+}
+.dataTable > thead > tr > th[class*="sort"]:before,
+.dataTable > thead > tr > th[class*="sort"]:after {
+    content: "" !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+
+
+
+@media (min-width: 992px){
+    .saleParchaseWidth {
+        max-width:80% !important;
+    }
+}
+
